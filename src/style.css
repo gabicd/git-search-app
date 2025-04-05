@@ -50,7 +50,15 @@ body{
 #search-bar{
     width: 40%;
     height: 55px;
-    border-radius: 10px;
+    border-radius: 10px; 
+}
+
+#input-search{
+    transition: 0.5s;
+}
+
+#input-search:hover{
+    filter: brightness(0.9);
 }
 
 #button-addon2{
@@ -72,7 +80,7 @@ body{
 
 #button-addon2:hover{
     cursor: pointer;
-    filter: brightness(0.8);
+    filter: brightness(1.1);
 }
 
 .error-container{
@@ -86,7 +94,7 @@ body{
     margin: 0;
 }
 
-#githubname{
+#github-name{
     font-family: "Yalta Sans W02 Extra Bold"; 
     color: white;
 }
