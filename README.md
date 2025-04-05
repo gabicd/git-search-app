@@ -1,12 +1,19 @@
-# React + Vite
+# Projeto 02 do Innovation Class da Avanti
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto consiste no desenvolvimento de uma aplicação React que permite buscar perfis do GitHub e exibir as informações do usuário, conforme o layout disponibilizado pela empresa no Figma.
 
-Currently, two official plugins are available:
+## Requisitos de desenvolvimento
+  * Criar um campo de busca, onde o usuário digita o nome de um perfil do GitHub
+  * Ao clicar no botão de busca, a aplicação deve consumir a API do GitHub e exibir as seguintes informações do usuário: Nome, Foto de perfil e Bio
+  * Exibir mensagens de erro caso o perfil não seja encontrado
+  * Estilizar o layout seguindo o design do Figma
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+Para o desenvolvimento desse site, conforme os requisitos, foi utilizada a biblioteca React, da linguagem JavaScript, HTML e CSS.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Além disso, também foi utilizada a biblioteca React Bootstrap, que implementa elementos do framework de CSS Bootstrap ao React e permite utilizá-los no código.
+
+A inclusão dessa biblioteca visou facilitar a construção do site de forma responsiva, com os breakpoints e sistema de grid do Bootstrap, e componentes pré-estilizados, que foram costumizados para se adequar ao layout.
+
+Também foi incluído um spinner de loading, para o itervalo de tempo necessário para a API requisitar e receber os dados.
