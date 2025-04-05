@@ -1,0 +1,98 @@
+
+
+body{
+    aspect-ratio: 1440 / 810; 
+    height: 100vh;
+    width: 100%; 
+    background-image: url("./assets/4.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: "Nunito Sans" !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#usercard-img{
+    width: clamp(100px, 20vw, 220px);
+    height: clamp(100px, 20vw, 220px);
+    object-fit: 'cover';
+    aspect-ratio: 1/1;
+    border: 2px solid #005CFF;
+}
+
+#black-container{
+    aspect-ratio: 1320/537;
+    max-height: 537px;
+    width: 100%;
+}
+
+#usercard{
+    background: #D9D9D9;
+}
+
+.centered-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+.text-card{
+    text-align: left;
+}
+
+#search-bar{
+    width: 40%;
+    height: 55px;
+    border-radius: 10px;
+}
+
+#button-addon2{
+    background: #005CFF;
+    color:white
+}
+
+#name-user{
+    font-weight: 700;
+}
+
+#button-addon2{
+    aspect-ratio: 1/1;
+    width: 62px !important;
+    height: 62px !important;
+
+    transition: 0.3s;
+}
+
+#button-addon2:hover{
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
+.error-container{
+    margin-top: -18%;
+    text-align: center;
+   
+}
+
+.errorMessage{
+    color: #F00;
+    margin: 0;
+}
+
+#githubname{
+    font-family: "Yalta Sans W02 Extra Bold"; 
+    color: white;
+}
+
+::placeholder{
+    color:black !important;
+    opacity: 1 !important;
+}
+
