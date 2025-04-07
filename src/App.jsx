@@ -140,8 +140,8 @@ function UserCard({user}) {
   <Container className='centered-container mb-3'> 
     <Card id='usercard' style={{ width: '51rem', height: '16rem', borderRadius: '25px' }}>
       <Card.Body>
-        <Row className="h-100 d-flex align-items-center gap-lg-5 gap-md-3 gap-sm-2">
-          <Col lg={3} md={4} sm={12}>
+        <Row className="h-100 d-flex align-items-center gap-lg-5 gap-md-3 gap-sm-1  ">
+          <Col lg={3} md={4} sm={5}>
             <Image src={userData.avatar_url}
                   roundedCircle
                   id='usercard-img'
@@ -150,8 +150,8 @@ function UserCard({user}) {
           </Col>
           <Col>
             <Stack direction="vertical" className="text-card">
-              <p className="text-primary fs-5" id='name-user'>{userData.name || 'Usuário sem nome'}</p>
-              <p className="text-grey fs-6">{userData.bio || 'O usuário não possui bio'}</p>
+              <p className="text-primary fs-5 mb-2" id='name-user'>{userData.name || 'Usuário sem nome'}</p>
+              <p className="text-grey fs-6 mt-0">{userData.bio || 'O usuário não possui bio'}</p>
             </Stack>
           </Col>
         </Row>       

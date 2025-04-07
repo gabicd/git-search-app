@@ -1,4 +1,13 @@
-
+@keyframes appear-card{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 body{
     aspect-ratio: 1440 / 810; 
@@ -18,8 +27,8 @@ body{
 }
 
 #usercard-img{
-    width: clamp(100px, 20vw, 220px);
-    height: clamp(100px, 20vw, 220px);
+    width: clamp(100px, 25vw, 220px);
+    height: clamp(100px, 25vw, 220px);
     object-fit: 'cover';
     aspect-ratio: 1/1;
     border: 2px solid #005CFF;
@@ -29,10 +38,12 @@ body{
     aspect-ratio: 1320/537;
     max-height: 537px;
     width: 100%;
+    animation: appear-card 0.5s ease-in-out;
 }
 
 #usercard{
     background: #D9D9D9;
+    animation: appear-card 0.3s ease-in-out;
 }
 
 .centered-container{
@@ -86,6 +97,7 @@ body{
 .error-container{
     margin-top: -18%;
     text-align: center;
+    animation: appear-card 0.3s ease-in-out;
    
 }
 
